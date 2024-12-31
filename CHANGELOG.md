@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.1 (2024-12-31)
+
+Full Changelog: [v0.0.1-alpha.1...v0.1.0-alpha.1](https://github.com/ekmillard/questblue-api-node/compare/v0.0.1-alpha.1...v0.1.0-alpha.1)
+
+### Features
+
+* Add files via upload ([5e3e465](https://github.com/ekmillard/questblue-api-node/commit/5e3e465fe99560a1f7877179f74c2dba3faa3168))
+
 ## 0.0.1-alpha.1 (2024-12-31)
 
 Full Changelog: [v0.0.1-alpha.0...v0.0.1-alpha.1](https://github.com/ekmillard/questblue-api-node/compare/v0.0.1-alpha.0...v0.0.1-alpha.1)
