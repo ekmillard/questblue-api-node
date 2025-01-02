@@ -1,6 +1,6 @@
 {
   "name": "questblue",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0-alpha.2",
   "description": "The official TypeScript library for the Questblue API",
   "author": "Questblue <dev-feedback@questblue.com>",
   "types": "dist/index.d.ts",

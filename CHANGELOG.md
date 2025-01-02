@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.2 (2025-01-02)
+
+Full Changelog: [v0.1.0-alpha.1...v0.1.0-alpha.2](https://github.com/ekmillard/questblue-api-node/compare/v0.1.0-alpha.1...v0.1.0-alpha.2)
+
+### Chores
+
+* **internal:** codegen related update ([#7](https://github.com/ekmillard/questblue-api-node/issues/7)) ([c24a849](https://github.com/ekmillard/questblue-api-node/commit/c24a849d6d48a55e2db7f51a40ce2a3e8e31d7da))
+
 ## 0.1.0-alpha.1 (2024-12-31)
 
 Full Changelog: [v0.0.1-alpha.1...v0.1.0-alpha.1](https://github.com/ekmillard/questblue-api-node/compare/v0.0.1-alpha.1...v0.1.0-alpha.1)
