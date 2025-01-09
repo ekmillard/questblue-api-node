@@ -157,6 +157,7 @@ const environments = {
   environment_1: 'https://api2.questblue.com',
 };
 type Environment = keyof typeof environments;
+
 export interface ClientOptions {
   /**
    * Username for basic authentication.
