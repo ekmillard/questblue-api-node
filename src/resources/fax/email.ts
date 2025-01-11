@@ -9,11 +9,7 @@ export class Email extends APIResource {
    */
   delete(params: EmailDeleteParams, options?: Core.RequestOptions): Core.APIPromise<string> {
     const { did, email } = params;
-    return this._client.delete('/fax/email', {
-      query: { did, email },
-      ...options,
-      headers: { Accept: 'application/json', ...options?.headers },
-    });
+    return this._client.delete('/fax/email', { query: { did, email }, ...options });
   }
 
   /**
