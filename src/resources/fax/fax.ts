@@ -46,7 +46,6 @@ export class Fax extends APIResource {
         tier,
       },
       ...options,
-      headers: { Accept: 'application/json', ...options?.headers },
     });
   }
 
