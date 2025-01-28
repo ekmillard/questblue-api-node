@@ -12,7 +12,7 @@ const client = new Questblue({
 
 describe('resource voiceDidManagement', () => {
   test('fraudvalidate: only required params', async () => {
-    const responsePromise = client.voiceDidManagement.fraudvalidate({ tn: 0 });
+    const responsePromise = client.voiceDidManagement.fraudvalidate({ tn: 100 });
     const rawResponse = await responsePromise.asResponse();
     expect(rawResponse).toBeInstanceOf(Response);
     const response = await responsePromise;
@@ -23,7 +23,7 @@ describe('resource voiceDidManagement', () => {
   });
 
   test('fraudvalidate: required and optional params', async () => {
-    const response = await client.voiceDidManagement.fraudvalidate({ tn: 0 });
+    const response = await client.voiceDidManagement.fraudvalidate({ tn: 100 });
   });
 
   test('move2fax: only required params', async () => {
