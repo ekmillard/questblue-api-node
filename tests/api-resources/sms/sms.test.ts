@@ -26,9 +26,9 @@ describe('resource sms', () => {
     const response = await client.sms.update({
       did: 0,
       sms_mode: 'email',
-      chat_email: 'dev@stainlessapi.com',
+      chat_email: 'dev@stainless.com',
       chat_passwd: 'chat_passwd',
-      forward2email: 'dev@stainlessapi.com',
+      forward2email: 'dev@stainless.com',
       post2url: 'post2url',
       post2urlmethod: 'form',
       xmpp_name: 'xmpp_name',

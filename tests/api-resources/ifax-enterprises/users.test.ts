@@ -33,7 +33,7 @@ describe('resource users', () => {
       fax_name: 'fax_name',
       fax_password: 'fax_password',
       sname: 'sname',
-      fax_email: 'dev@stainlessapi.com',
+      fax_email: 'dev@stainless.com',
       fax_lname: 'fax_lname',
       is_admin: 'on',
     });
@@ -53,7 +53,7 @@ describe('resource users', () => {
   test('update: required and optional params', async () => {
     const response = await client.ifaxEnterprises.users.update({
       fax_login: 'fax_login',
-      fax_email: 'dev@stainlessapi.com',
+      fax_email: 'dev@stainless.com',
       fax_lname: 'fax_lname',
       fax_login_new: 'fax_login_new',
       fax_name: 'fax_name',
